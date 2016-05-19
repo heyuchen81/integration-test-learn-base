@@ -1,0 +1,35 @@
+{
+	"name": "learn-base",
+	"version": "1.0.0",
+	"description": "An integration test learned from https://github.com/Matt-B/cucumber-js-selenium-webdriver-example to use webdriver.js and cucumber.js to run a simple google search.",
+	"main": "index.js",
+	"scripts": {
+		"test": "node_modules/grunt-cli/bin/grunt"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/heyuchen81/integration-test-learn-base.git"
+	},
+	"keywords": [
+		"cucumber.js",
+		"webdriver.js"
+	],
+	"author": "XinHe <xin.he@ingenta.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/heyuchen81/integration-test-learn-base/issues"
+	},
+	"homepage": "https://github.com/heyuchen81/integration-test-learn-base#readme",
+	"devDependencies": {
+		"cucumber": "^0.10.2",
+		"selenium-webdriver": "^2.53.2",
+		"chai": "^3.5.0",
+		"grunt": "^1.0.1",
+		"grunt-cli": "^1.2.0",
+		"grunt-contrib-jshint": "^1.0.0",
+		"grunt-exec": "^0.4.7",
+		"grunt-env": "^0.4.4",
+		"sanitize-filename": "^1.6.0",
+		"appium": "^1.5.2"
+	}
+}
