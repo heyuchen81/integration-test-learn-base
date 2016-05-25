@@ -22,7 +22,7 @@ module.exports = function() {
     this.waitFor('div.g');
     this.driver.findElements({ css: 'div.g' })
       .then(function(elements) {
-        expect(elements.length).to.not.equal(0);
+        expect(elements.length).to.not.equal(0); ;
         next();
       });
   });
